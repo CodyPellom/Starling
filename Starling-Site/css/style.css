@@ -1,20 +1,20 @@
-Lateef|Overlock|SacramentoBoogaloo|Chewy|Fredericka+the+Great|Kirang+Haerang|Nixie+One|Share|Yatra+One
+/* Lateef|Overlock|SacramentoBoogaloo|Chewy|Fredericka+the+Great|Kirang+Haerang|Nixie+One|Share|Yatra+One
 html, body, header {
 
     background-color: aliceblue;
  
 }
-#lander_section {
+#lander_section, #description_box_two {
  
-   border: solid transparent 1vh;
-    background-color: antiquewhite;
+   border: solid black 2vh;
+    background-image: url(https://i.imgur.com/oVyQOiv.png);
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
     height: 110vh;
 
 }
-#starlingLogo {
+.starlingLogo {
     margin-top: 30vh;
     width:60vw;
     height: 25vh;
@@ -24,7 +24,7 @@ html, body, header {
     margin-left: 20vw;
     
 }
-#underscore {
+.underscore {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,13 +34,13 @@ html, body, header {
 }
 #description_box {
     border: solid transparent 1vh;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 100vw;
-    height: 250vh;
-    margin-top: -10vh;
+    height: 180vh;
+    margin-top: -0.01vh;
 }
 #description_header_one {
-    margin-top: 15vh;
+    margin-top: 5vh;
     font-family: Yatra One;
     font-size: 7vh;
     color: rgb(165, 177, 248);
@@ -57,15 +57,7 @@ html, body, header {
     justify-content: center;
     margin-left: 5vw;
 }
-#description_header_two {
-    margin-top: 15vh;
-    font-family: Yatra One;
-    font-size: 7vh;
-    color: rgb(165, 177, 248);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 #description_header_three {
     margin-top: 15vh;
     font-family: Yatra One;
@@ -101,19 +93,52 @@ html, body, header {
     display: flex;
     justify-content: center;
     margin-left: 5vw;
-}
-#under_header {
-    font-family: Chewy;
-    font-size: 2vh;
-    text-align: center;
-    width: 90%;
-    display: flex;
+
+} */
+/* 
+Cabin+Sketch|Fredericka+the+Great|IM+Fell+English+SC|Special+Elite */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex; 
+    flex-direction: row;
     justify-content: center;
-    margin-left: 5vw;
 }
-#advert_one {
-    width: 22vw;
-    height: 30vh;
-    margin-left: 40vw;
-border:solid rgb(165, 177, 248) 1.5vh;
+
+#brain {
+    margin-top: 150px;
+    width: 800px;
+    height: 450px;
+    z-index: 500;
+
 }
+#Logo_Land {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#Logo {   
+color: whitesmoke; 
+position: inherit;
+font-size: 65px;
+font-family: Fredericka the Great;
+}
+#Logo_Under {
+    color: whitesmoke;
+    position: relative;
+    font-family: Special Elite;
+    padding-top: 110px;
+}
+#particles-js {
+    position: absolute;
+    margin-top: 150px;
+    width: 800px;
+    height: 445px;
+    z-index: inherit;
+}
+
+
