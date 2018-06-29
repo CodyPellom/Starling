@@ -1,10 +1,10 @@
 {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 300,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 900
         }
       },
       "color": {
@@ -20,13 +20,13 @@
           "nb_sides": 10
         },
         "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
+          "src": "",
+          "width": 500,
+          "height": 500
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.75,
         "random": true,
         "anim": {
           "enable": true,
@@ -48,7 +48,7 @@
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 100,
         "color": "#49ffb0",
         "opacity": 0.75,
         "width": 5,
@@ -56,7 +56,7 @@
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 7,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -64,7 +64,7 @@
         "bounce": false,
         "attract": {
           "enable": true,
-          "rotateX": 600,
+          "rotateX": 800,
           "rotateY": 1200
         }
       }
@@ -90,7 +90,7 @@
           }
         },
         "bubble": {
-          "distance": 400,
+          "distance": 300,
           "size": 40,
           "duration": 2,
           "opacity": 8,
@@ -108,5 +108,5 @@
         }
       }
     },
-    "retina_detect": true
+    "retina_detect": false
   }

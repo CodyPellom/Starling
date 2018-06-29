@@ -22,19 +22,10 @@
 <body>
     <div id="barba-wrapper">
         <div class="barba-container">
-            <img id="brain" src="https://i.imgur.com/VJpcExg.gif" alt="bigBrainPic">
-            <div id="particles-js">
-            </div>
-            <a id="linkedIn" href="./pageOne.html">let's dive in</a>
+          
         </div>
     </div>
 
-    <script src="../js/particles.js-master/particles.min.js"></script>
-    <script>
-        particlesJS.load('particles-js', 'particles.json', function () {
-            console.log('particles.json LOADED...');
-        });
-    </script>
     
     <script>
         $('document').ready(function () {
@@ -59,7 +50,14 @@
             }
             Barba.Pjax.start()
         });
+   </script>
+    <script src="../js/particles.js-master/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.json LOADED...');
+        });
     </script>
+   
 </body>
 
 </html>

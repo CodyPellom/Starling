@@ -96,7 +96,7 @@ html, body, header {
 
 } */
 /* 
-Cabin+Sketch|Fredericka+the+Great|IM+Fell+English+SC|Special+Elite */
+Cabin+Sketch|Fredericka+the+Great|IM+Fell+English+SC|Special+Elite Bad+Script|Nixie+One|*/
 body, html {
     margin: 0;
     padding: 0;
@@ -106,39 +106,59 @@ body, html {
     flex-direction: row;
     justify-content: center;
 }
+#barba-wrapper {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+.barba-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
 
 #brain {
-    margin-top: 150px;
-    width: 800px;
-    height: 450px;
+    position: absolute;
+    margin-top: 175px;
+    width:650px;
+    height: 400px;
     z-index: 500;
 
+}
+#linkedIn {
+
+    margin-top: 575px;
+    color: white;
+    font-family: Special Elite;
+    font-size: 20px;
 }
 #Logo_Land {
     position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+        
 }
 #Logo {   
 color: whitesmoke; 
 position: inherit;
-font-size: 65px;
-font-family: Fredericka the Great;
+font-size: 75px;
+font-family: Nixie One;
+margin-bottom: 50px;
 }
 #Logo_Under {
     color: whitesmoke;
     position: relative;
-    font-family: Special Elite;
-    padding-top: 110px;
+    font-family: Nixie One;
+    font-size: 16px;
+    padding-top: 115px;
 }
 #particles-js {
     position: absolute;
-    margin-top: 150px;
-    width: 800px;
-    height: 445px;
-    z-index: inherit;
+    margin-top: 175px;
+    width:640px;
+    height: 390px;
+    
 }
 
 
